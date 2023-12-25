@@ -1,0 +1,344 @@
+
+
+@media screen and (max-width: 800px) {
+   
+ .firstblock{
+        width: 96vw;
+    }
+    .blueone{
+        display: block;
+        width: 97vw;
+        height: 97vw;
+    }
+    
+    .search1 {
+        height: 94vw;
+        width: 95vw;
+    }
+    .circle1{
+        margin-top: 58vw;
+        margin-left: 55vw;
+        width: 34vw; 
+        height: 34vw;
+        animation: circle1 6s ease-in-out infinite;
+    }
+    @keyframes circle1 {
+        0% {
+            transform: translate(0, 0);
+          }
+          33% {
+            transform: translate(10vw, -12vw)
+          }
+          66% {
+            transform: translate(5vw, -15vw)
+          }
+          100% {
+            transform: translate(0, 0)
+          }
+    } 
+    .circle2{
+        margin-top: 52vw;
+        margin-left: 12vw;
+        width: 39vw; 
+        height: 39vw;
+        animation: circle2 6s ease-in-out infinite;
+    }
+    @keyframes circle2 {
+        0% {
+            transform: translate(0, 0);
+          }
+          33% {
+            transform: translate(-7vw, -5vw)
+          }
+          66% {
+            transform: translate(5vw, 15vw)
+          }
+          100% {
+            transform: translate(0, 0)
+          }
+    } 
+    .circle3{
+        margin-top: 25vw;
+        margin-left: 17vw;
+        width: 34vw; 
+        height: 34vw;
+        animation: circle3 4s ease-in-out infinite;
+    }
+    @keyframes circle3 {
+        0% {
+            transform: translate(0, 0);
+          }
+          33% {
+            transform: translate(7vw, -2vw)
+          }
+          66% {
+            transform: translate(5vw, -8vw)
+          }
+          100% {
+            transform: translate(0, 0)
+          }
+    } 
+    .circle4{
+    margin-top: 10vw;
+    margin-left: 40vw;
+    width: 34vw; 
+    height: 34vw;
+    animation: circle4 4s ease-in-out infinite;
+}
+@keyframes circle4 {
+    0% {
+        transform: translate(0, 0);
+      }
+      33% {
+        transform: translate(-2vw, 7vw)
+      }
+      66% {
+        transform: translate(5vw, 12vw)
+      }
+      100% {
+        transform: translate(0, 0)
+      }
+} 
+.krutka{
+    width: 44vw;
+    height: 42vw;
+    margin-top: 49vw;
+    margin-left: 48vw;
+}
+
+.secondblock{
+    margin-top: 0vw;
+    margin-left: 1vw;
+    height: 71vw;
+}
+.pinkone{
+    height: 47vw;
+    width: 96vw;
+}
+.nkone{
+    margin-left: -1vw;
+    margin-top: 1vw;
+    width: 95.3vw;
+    height: 46vw;
+}
+
+.textpinkone{
+    font-size: 16vw;
+    margin-top: 14vw;
+    margin-left: 17vw;
+}
+
+.bluefind{
+    margin-top: 1vw;
+    margin-left: 0vw;
+    font-size: 9vw;
+    width: 94vw;
+    height: 23vw;
+}
+.zaryad{
+    margin-top: 1vw;
+    width: 97vw;
+    height: 29vw;
+}
+.thirdblock{
+    width: 48vw;
+    height: 32vw;
+    margin-left: 1vw;
+    overflow: hidden;
+}
+.thirdblock2 {
+    width: 47vw;
+    height: 30vw;
+}
+.molnii{
+    margin-left: -90vw;
+    height: 26vw;
+    width: 340vw;
+}
+
+.battery {
+    width: 47vw;
+    height: 30vw;
+}
+.nol{
+    width: 49vw;
+    height: 29vw;
+}
+.odin{
+    width: 49vw;
+    height: 29vw;
+}
+
+.dva{
+    width: 49vw;
+    height: 29vw;
+}
+
+.tri{
+    width: 49vw;
+    height: 29vw;
+}
+
+.che{
+    width: 49vw;
+    height: 29vw;
+}
+
+.fourthblock {
+    position: relative;
+    width: 97vw;
+    height: 112vw;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.pattern {
+    position: relative;
+    margin-left: 1vw;
+    z-index: 1;
+    display: block;
+    width: 94vw;
+    height: 56vw;
+    overflow: hidden;
+}
+
+.pinklines{
+    width: 96vw;
+    height: 56vw;
+ }
+ .bluelines{
+    width: 96vw;
+ }
+ 
+ .texttok{
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 9vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    width: 97vw;
+    height: 23vw;
+ }
+
+.caution{
+    margin-top: 7vw;
+    margin-left: -1vw;
+ }
+
+ .buttons{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    width: 96vw;
+    height: 32vw;
+}
+
+.one{
+    width: 31vw;
+    height: 31vw;
+    opacity: 0;
+    animation: first 4s linear infinite;
+}
+.two{
+    width: 31vw;
+    height: 31vw;
+    opacity: 0;
+    animation: second 4s linear infinite;
+}
+.three{
+    width: 31vw;
+    height: 31vw;
+    opacity: 0;
+    animation: third 4s linear infinite;
+}
+.all{
+    margin-top: 0vw;
+    z-index: 1;
+    margin-left: -95vw;
+    width: 96vw;
+    height: 32vw;
+}
+.fifthblock {
+    height: 50vw;
+}
+.jtext {
+    left: 0vw;
+    position: absolute;
+    display: block;
+    width: 97vw;
+    height: 47vw;
+    word-wrap: break-word;
+}
+.textbig {
+    margin-top: 0;
+    text-align: center;
+    font-size: 21vw;
+    margin-left: 1.4vw;
+    white-space: pre-wrap;
+}
+
+.stext {
+    margin-top: -5vw;
+    left: 0vw;
+    display: block;
+    overflow: hidden; 
+    width: 97vw;
+    height: 7vw;
+}
+
+.smalltext {
+    margin-top: 0;
+    text-align: center;
+    margin-left: 1vw;
+    text-align: center;
+    font-size: 4.5vw;
+
+}
+
+.sixtblock {
+    width: 96vw;
+    height: 68vw;
+    margin-top: 0vw;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+}
+.pattern2 {
+    position: relative;
+    margin-top: -60vw;
+    height: 24vw;
+    width: 96vw;
+    margin-left: 1vw;
+}
+.hey {
+    margin-left: -19vw;
+    margin-top: 2vw;
+    height: 24vw;
+    width: 170vw;
+}
+.seventhblock{
+    width: 96vw;
+}
+.choose{
+    width: 98vw;
+    height: 48vw;
+}
+.meduzy1 {
+    width: 305vw;
+    height: 51vw;
+    animation: novaya 2s linear infinite;
+}
+@keyframes novaya {
+    from{ margin-left: -155vw;}
+    to{ margin-left: -72vw;}
+}
+.bluefind2{
+    margin-left: 0vw;
+    font-size: 4vw;
+    width: 96vw;
+    height: 11vw; 
+}
+
+}
